@@ -20,7 +20,7 @@ student_lastname = input("Please enter your Last Name: ")
 while (student_lastname != "ZZZ"):
     student_firstname = input("Please enter your First Name: ")
     student_GPA = float(input("What is your GPA? "))
-    
+
     if (student_GPA >= 3.5):
         print(student_firstname, "You have made it to the Dean's List.")
     elif (student_GPA >= 3.25):
