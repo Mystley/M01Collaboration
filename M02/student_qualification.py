@@ -8,7 +8,7 @@ This program is intended to accept student names and GPAs and test if the studen
     ○ test if the student's GPA is 3.5 or greater and, if so, print a message saying
         that the student has made the Dean's List.
     ○ test if the student's GPA is 3.25 or greater and, if so, print a message saying
-        that the studnet has made the Honor Roll.
+        that the student has made the Honor Roll.
     • Test your app using at least five students.
 
 Title: Student qualification
