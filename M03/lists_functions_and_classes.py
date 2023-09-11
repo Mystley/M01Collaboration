@@ -1,5 +1,6 @@
 """
-This is a programm that takes user information about a vehicle type and display them back to the user using class
+This is a programm that takes user information about a vehicle type and display them back to the user using a super class
+"Vehicle" called again in "Automobile" class.
 
 Padley Perard
 """
@@ -22,7 +23,7 @@ class Automobile(Vehicle):
         if doors == 4:
             break
         else:
-            doors = input("Only '2' or '4' is accepted")
+            doors = int(input("Only '2' or '4' is accepted\n Vehicle doors: "))
     
     roof = input("Vehicle roof ('solid' or 'sun roof'): ")
     while roof != "solid":                                 # Making sure the user type the right type of roof
@@ -45,7 +46,7 @@ roof_entry = Automobile.roof
 
 # Output
 print("\n")
-print(f'Vehicle type:{vehicle_type_entry.rjust(12)}')
+print(f'Vehicle type:{vehicle_type_entry.rjust(13)}')
 print(f'Year:{year_entry:>21}')
 print(f'Make:{make_entry.rjust(21)}')
 print(f'Model:{model_entry.rjust(20)}')
